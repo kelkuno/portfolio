@@ -1,5 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from '../Home/Home.jsx';
+import Nav from '../Nav/Nav.jsx';
+import Projects from '../Projects/Projects.jsx';
+import About from '../About/About.jsx';
+import Resume from '../Resume/Resume.jsx';
+
+
+
+
 
 function App() {
   return (
@@ -10,6 +18,16 @@ function App() {
         <div className="content">Resume</div>
         <div className="content">Projects</div>
       </div>
+      <Home />
+      <Resume />
+      <Nav />
+      <Projects />
+      <About />
+      
+
+
+
+
       <div className="footer">
         <div className="logo">
           Kelsey <br /> Kuno
