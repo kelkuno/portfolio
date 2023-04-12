@@ -1,10 +1,22 @@
 import React from 'react';
+// import {useHistory} from 'react-router-dom';
+
+// const history = useHistory();
+
+// const routeHome = () => {
+//     alert("You are headed to animals");
+//     ///CHANGE LOCATION???
+//     history.push('/resume');
+//   }; 
 
 
 function Nav() {
     return(
         <div className="footer">
-          <div className="logo">
+          <div
+          onClick={() => console.log('hi')}
+          className="logo"
+          >
             Kelsey <br /> Kuno
           </div>
           <div className="title-contact-container">
