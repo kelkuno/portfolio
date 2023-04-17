@@ -84,3 +84,26 @@ body {
   gap: 5%;
   height: 100%;
 }
+
+
+/* Resume component styles */
+.resume-container {
+  border: solid 2px blue;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skills {
+  border: solid 2px green;
+  flex-basis: 200px;
+  flex-grow: 1;
+  flex-grow: 1;
+}
+.resume-content {
+  border: solid 2px pink;
+  flex-basis: 600px;
+  flex-grow: 3;
+  flex-shrink: 3;
+  height: 100%;
+  overflow:auto;
+}
