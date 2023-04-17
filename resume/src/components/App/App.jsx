@@ -15,7 +15,6 @@ function App() {
  
       <Router>
         <div className="App">
-          {/* <img src={logo} className="App-logo" alt="logo" /> */}
           <Route
             path="/"
             exact>

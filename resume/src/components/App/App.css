@@ -56,3 +56,31 @@ body {
 .content {
   display: block;
 }
+
+/* About component styles */
+.profile-pic {
+  max-width: 350px;
+  max-height: 350px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  border: solid 2px #6495ED;
+  box-shadow: 5px 5px 40px 5px #0ff;
+}
+.about-content {
+  font-family: 'Signika', sans-serif;
+  font-weight: normal;
+  font-size:35px;
+  flex-basis: 1000px;
+  flex-shrink: 3;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 5%;
+  height: 100%;
+}
