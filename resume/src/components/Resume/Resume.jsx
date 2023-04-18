@@ -141,19 +141,23 @@ function Resume() {
                 <div className="content-blocks">
                     <h2>Education</h2>
                     <div className="block">
-                        <div className="">Prime Digital Academy</div>
+                        <h3>Prime Digital Academy</h3>
                         <div className="">Full Stack Software Engineering Certificate </div>
                         <div className="">Graduated October 2022</div>
-                        <p>Training included: Training Included: Accelerated full stack software engineering training program teaching relevant web development technologies.Training also included public speaking and presentation practice, professional skill development, solo project development, real-world client work.</p>
+                        <ul className="bullets">
+                            <li><span className="underline">Training included: </span> Accelerated full stack software engineering training program teaching relevant web development technologies.Training also included public speaking and presentation practice, professional skill development, solo project development, real-world client work.</li>
+                        </ul>
                     </div>
                     <div className="block">
-                        <div className="">Minneapolis College of Art & Design</div>
+                        <h3>Minneapolis College of Art & Design</h3>
                         <div className="">Masters of Graphic Arts and Web Design </div>
                         <div className="">Graduated December 2020</div>
-                        <p>Training included: Training Included: design principles, motion design, web design, typography, user experience, graphic design and web development.</p>
+                        <ul className="bullets">
+                            <li><span className="underline">Training included: </span> Design principles, motion design, web design, typography, user experience, graphic design and web development.</li>
+                        </ul>
                     </div>
                     <div className="block">
-                        <div className="">University of Minnesota</div>
+                        <h3>University of Minnesota</h3>
                         <div className="">Bachelor of Arts in English Literature; Studio Art </div>
                         <div className="">Graduated December 2012</div>
                     </div>
