@@ -17,7 +17,32 @@ function Resume() {
     return (
         <div className="resume-container">
             <div className="skills">
-
+                <div className="content-blocks">
+                    <div className="block">
+                        <div>JavaScript</div>
+                        <div>HTML</div>
+                        <div>CSS</div>
+                        <div>jQuery</div>
+                        <div>React</div>
+                        <div>JavaScript</div>
+                        <div>Redux</div>
+                        <div>SQL</div>
+                        <div>Express</div>
+                        <div>NodeJS</div>
+                        <div>Git</div>
+                    </div>
+                    <div className="block">
+                        <div>Adobe After Effects</div>
+                        <div>Adobe Premiere</div>
+                        <div>Adobe InDesign</div>
+                        <div>Adobe Illustrator</div>
+                        <div>Adobe Photoshop</div>
+                        <div>Adobe XD</div>
+                        <div>Typography</div>
+                        <div>Design Layout</div>
+                        <div>Motion Design</div>
+                    </div>
+                </div>
             </div>
             <div className="resume-content">
                 <div className="content-blocks">
