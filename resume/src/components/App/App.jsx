@@ -32,7 +32,7 @@ function App() {
             path="/about">
             <About />
           </Route>
-          {/* <Nav /> */}
+          <Nav />
         </div>
       </Router>
 
