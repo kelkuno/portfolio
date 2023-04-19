@@ -2,15 +2,17 @@
   display: flex;
   height: 95vh;
   width: 95vw;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-between;
 }
+
 body {
   background-color: #6495ED;
   overflow: hidden;
   display: flex;
   justify-content: center;
 }
+
 /* width */
 ::-webkit-scrollbar {
   width: 20px;
@@ -27,6 +29,7 @@ body {
   background: #0ff;
   border-radius: 10px;
 }
+
 /* page structure */
 .content-container {
   text-align: right;
@@ -34,6 +37,7 @@ body {
   font-size: 200px;
   width: 100%;
 }
+
 .footer {
   width: 100%;
   color: white;
@@ -46,28 +50,33 @@ body {
   text-align: left;
   line-height: 90px;
 }
+
 .logo:hover {
   color: #6495ED;
   -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: white;
+  -webkit-text-stroke-color: white;
 }
+
 .title-contact-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
   font-family: 'Signika', sans-serif;
-  font-size:30px;
+  font-size: 30px;
   /* margin-top: 20px; */
 }
+
 .contact-container {
   width: 50%;
   display: flex;
   justify-content: space-between;
 }
+
 .number {
   margin-right: 15px;
   font-weight: 700;
 }
+
 .content {
   display: block;
 }
@@ -82,13 +91,15 @@ body {
   border: solid 2px #6495ED;
   box-shadow: 5px 5px 40px 5px #0ff;
 }
+
 .about-content {
   font-family: 'Signika', sans-serif;
   font-weight: normal;
-  font-size:35px;
+  font-size: 35px;
   flex-basis: 1000px;
   flex-shrink: 3;
 }
+
 .about-container {
   display: flex;
   align-items: center;
@@ -103,57 +114,61 @@ body {
 
 /* Resume component styles */
 .resume-container {
-  border: solid 2px blue;
+  font-family: 'Signika', sans-serif;
+  font-size: 26px;
   height: 100%;
+  overflow: auto;
+}
+
+.block {
+  margin: 45px 0;
+}
+
+.skills .block {
   display: flex;
   flex-wrap: wrap;
-  font-family: 'Signika', sans-serif;
-  font-size:26px;
+  justify-content: flex-start;
 }
-.skills {
-  border: solid 2px green;
-  flex-basis: 200px;
-  flex-grow: 1;
-  flex-grow: 1;
-}
-.resume-content {
-  border: solid 2px pink;
-  flex-basis: 600px;
-  flex-grow: 3;
-  flex-shrink: 3;
-  height: 100%;
-  overflow:auto;
-}
-.block {
-  /* border: solid 2px white; */
-  margin: 60px 0;
-}
+
 .bullets {
   margin: 0;
-  /* border: solid 4px fuchsia; */
-
 }
+
 .employment-info {
-  /* border: solid 2px green; */
   margin-bottom: 10px;
   font-size: 30px;
 }
 
+
 /* typography  */
-h2{
+h2 {
   margin: 0;
   padding: 0;
   font-family: 'Righteous', cursive;
-  font-size: 50px;
+  font-size: 60px;
   letter-spacing: .06em;
+  text-transform: uppercase;
+  color: #6495ED;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
-h3{
+
+h3 {
   margin: 0;
   padding: 0;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 30px;
 }
+
+h4 {
+  margin: 0 60px 20px 0;
+  padding: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30p;
+}
+
 .underline {
   text-decoration: underline;
 }
