@@ -4,6 +4,7 @@
   width: 95vw;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 
 body {
@@ -117,7 +118,6 @@ body {
   font-family: 'Signika', sans-serif;
   font-size: 26px;
   height: 100%;
-  overflow: auto;
 }
 
 .block {
@@ -140,7 +140,7 @@ body {
 }
 
 
-/* typography  */
+/* typography & reusable elements */
 h2 {
   margin: 0;
   padding: 0;
@@ -151,6 +151,22 @@ h2 {
   color: #6495ED;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
+}
+button {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: 'Signika', sans-serif;
+  background-color: #6495ED;
+  padding: 10px 20px;
+  margin: 20px;
+  border-radius: 25px;
+  border: solid 2px black;
+}
+button:hover {
+  background-color: #0ff;
 }
 
 h3 {
@@ -165,10 +181,31 @@ h4 {
   margin: 0 60px 20px 0;
   padding: 0;
   font-weight: bold;
-  text-transform: uppercase;
-  font-size: 30p;
+  font-size: 30px;
 }
-
 .underline {
   text-decoration: underline;
+}
+
+/* projects */
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.projects .container {
+  border: solid 3px black;  
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: solid 2px #6495ED;
+  box-shadow: 5px 5px 40px 5px #0ff;
+  padding: 20px;
+  border-radius: 5%;
+  margin: 50px;
+}
+.projects img {
+  width: 100%;
+  object-fit: cover;
 }
