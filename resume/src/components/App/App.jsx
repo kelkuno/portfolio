@@ -3,6 +3,8 @@ import Home from '../Home/Home.jsx';
 import Projects from '../Projects/Projects.jsx';
 import About from '../About/About.jsx';
 import Nav from '../Nav/Nav.jsx';
+import PhotoPalette from '../PhotoPalette/PhotoPalette.jsx';
+
 
 import Resume from '../Resume/Resume.jsx';
 import { HashRouter as Router, Route, Link, useHistory } from "react-router-dom";
@@ -31,6 +33,10 @@ function App() {
           <Route
             path="/about">
             <About />
+          </Route>
+          <Route
+            path="/photo-palette">
+            <PhotoPalette />
           </Route>
           <Nav />
         </div>

@@ -1,10 +1,15 @@
 import React from 'react';
+import { useHistory } from 'react-router-dom';
 
 
 function Projects() {
 
+    const history = useHistory();
+
     const handleBtn = () => {
         console.log("sup button");
+        history.push('/photo-palette');
+
     }
 
     return (
