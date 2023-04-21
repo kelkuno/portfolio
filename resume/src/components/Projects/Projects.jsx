@@ -27,7 +27,6 @@ function Projects() {
                 <img src='./photo-palette-cover.png' alt="photo-palette" />
                 <button
                     onClick={handleBtn}
-                    className="btn"
                 >
                     Photo Palette
                 </button>

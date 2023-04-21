@@ -186,6 +186,11 @@ h4 {
 .underline {
   text-decoration: underline;
 }
+p{
+  margin: 20px 0;
+  font-family: 'Signika', sans-serif;
+  font-size: 26px;
+}
 
 /* projects */
 .projects {
@@ -205,7 +210,32 @@ h4 {
   border-radius: 5%;
   margin: 50px;
 }
-.projects img {
+img {
   width: 100%;
   object-fit: cover;
+}
+.single-img {
+  max-width: 900px;
+  margin: 20px auto;
+}
+.three-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.three-img iframe {
+  margin: 60px 20px;
+}
+.technologies {
+  display: flex;
+  flex-wrap: wrap;
+}
+.technologies p {
+  margin-right: 20px;
+}
+.button-grouping {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
 }
