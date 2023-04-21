@@ -11,6 +11,11 @@ function Projects() {
         history.push('/photo-palette');
 
     }
+    const handleBtn2 = () => {
+        console.log("sup button");
+        history.push('/employee-tracker');
+
+    }
 
     return (
         <div className="projects">
@@ -20,15 +25,15 @@ function Projects() {
                     onClick={handleBtn}
                     className="btn"
                 >
-                    Photo Palette
+                    Photo Palette Generator App
                 </button>
             </div>
             <div className="container">
                 <img src='./photo-palette-cover.png' alt="photo-palette" />
                 <button
-                    onClick={handleBtn}
+                    onClick={handleBtn2}
                 >
-                    Photo Palette
+                    Employee Time Tracker App
                 </button>
             </div>
 

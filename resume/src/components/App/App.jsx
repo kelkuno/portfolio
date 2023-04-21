@@ -4,6 +4,8 @@ import Projects from '../Projects/Projects.jsx';
 import About from '../About/About.jsx';
 import Nav from '../Nav/Nav.jsx';
 import PhotoPalette from '../PhotoPalette/PhotoPalette.jsx';
+import EmployeeTracker from '../EmployeeTracker/EmployeeTracker.jsx';
+
 
 
 import Resume from '../Resume/Resume.jsx';
@@ -37,6 +39,10 @@ function App() {
           <Route
             path="/photo-palette">
             <PhotoPalette />
+          </Route>
+          <Route
+            path="/employee-tracker">
+            <EmployeeTracker />
           </Route>
           <Nav />
         </div>
