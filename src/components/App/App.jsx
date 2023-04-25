@@ -44,7 +44,7 @@ function App() {
             path="/employee-tracker">
             <EmployeeTracker />
           </Route>
-          <Nav />
+          {/* <Nav /> */}
         </div>
       </Router>
 

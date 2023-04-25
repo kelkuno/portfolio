@@ -1,9 +1,6 @@
 .App {
-  display: flex;
   height: 95vh;
   width: 95vw;
-  flex-direction: column;
-  justify-content: space-between;
   overflow: auto;
 }
 
@@ -31,13 +28,50 @@ body {
   border-radius: 10px;
 }
 
-/* page structure */
-.content-container {
+/*Home Page */
+.main-nav {
   text-align: right;
   font-family: 'Signika', sans-serif;
-  font-size: 200px;
+  font-size: 10vw;
   width: 100%;
 }
+.main-nav .content {
+  display: block;
+  border: solid 2px black;
+}
+
+/* About component styles */
+.profile-pic {
+  max-width: 350px;
+  max-height: 350px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  border-radius: 50%;
+  border: solid 2px #6495ED;
+  box-shadow: 5px 5px 40px 5px #0ff;
+}
+.about-content {
+  font-family: 'Signika', sans-serif;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 1.5;
+  flex-basis: 1000px;
+  flex-shrink: 3;
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 5%;
+  height: 100%;
+}
+
+
+
+
 
 .footer {
   width: 100%;
@@ -78,65 +112,31 @@ body {
   font-weight: 700;
 }
 
-.content {
-  display: block;
-}
 
-/* About component styles */
-.profile-pic {
-  max-width: 350px;
-  max-height: 350px;
-  flex-grow: 1;
-  flex-shrink: 1;
-  border-radius: 50%;
-  border: solid 2px #6495ED;
-  box-shadow: 5px 5px 40px 5px #0ff;
-}
 
-.about-content {
-  font-family: 'Signika', sans-serif;
-  font-weight: normal;
-  font-size: 35px;
-  flex-basis: 1000px;
-  flex-shrink: 3;
-}
 
-.about-container {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  flex-wrap: wrap;
-  justify-content: center;
-  width: 100%;
-  gap: 5%;
-  height: 100%;
-}
 
 
 /* Resume component styles */
 .resume-container {
   font-family: 'Signika', sans-serif;
-  font-size: 26px;
+  font-size: 2vw;
   height: 100%;
 }
-
 .block {
-  margin: 45px 0;
+  margin: 2vw 0;
 }
-
 .skills .block {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
-
 .bullets {
   margin: 0;
 }
-
 .employment-info {
   margin-bottom: 10px;
-  font-size: 30px;
+  font-size: 2.3vw;
 }
 
 
@@ -145,7 +145,7 @@ h2 {
   margin: 0;
   padding: 0;
   font-family: 'Righteous', cursive;
-  font-size: 60px;
+  font-size: 4.5vw;
   letter-spacing: .06em;
   text-transform: uppercase;
   color: #6495ED;
@@ -157,7 +157,7 @@ button {
   padding: 0;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2.2vw;
   font-family: 'Signika', sans-serif;
   background-color: #6495ED;
   padding: 10px 20px;
@@ -170,26 +170,30 @@ button:hover {
 }
 
 h3 {
-  margin: 0;
+  margin: 2vw 0;
   padding: 0;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 2.5vw;
 }
 
 h4 {
-  margin: 0 60px 20px 0;
+  margin: 0 6vw 2vw 0;
   padding: 0;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 2.5vw;
 }
 .underline {
   text-decoration: underline;
 }
 p{
-  margin: 20px 0;
+  margin: 2vw 0;
   font-family: 'Signika', sans-serif;
-  font-size: 26px;
+  font-size: 2vw;
+}
+li {
+  font-family: 'Signika', sans-serif;
+  font-size: 2vw;
 }
 
 /* projects */

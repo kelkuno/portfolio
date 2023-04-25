@@ -8,7 +8,7 @@ function Home() {
     return (
 
         <>
-            <div className="content-container">
+            <div className="main-nav">
                 <Link to="/about" className="content">About</Link>
                 <Link to="/resume" className="content">Resume</Link>
                 <Link to="/projects" className="content">Projects</Link>
