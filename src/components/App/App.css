@@ -73,32 +73,35 @@ body {
 
 
 
+
+
+/* secondary-nav section*/
 .footer {
   width: 100%;
   color: white;
+  border: solid 2px red;
 }
-
-/* footer section*/
 .logo {
-  font-family: 'Righteous', cursive;
-  font-size: 110px;
-  text-align: left;
-  line-height: 90px;
+  border: solid 5px green;
 }
 
-.logo:hover {
+/* h1:hover {
   color: #6495ED;
   -webkit-text-stroke-width: 3px;
   -webkit-text-stroke-color: white;
-}
+} */
 
 .title-contact-container {
   display: flex;
   width: 100%;
   justify-content: space-between;
+  
+  border: solid 2px blue;
+  /* margin-top: 20px; */
+}
+.nav-text {
   font-family: 'Signika', sans-serif;
   font-size: 30px;
-  /* margin-top: 20px; */
 }
 
 .contact-container {
@@ -141,6 +144,15 @@ body {
 
 
 /* typography & reusable elements */
+h1{
+  margin: 0;
+  padding: 0;
+  font-family: 'Righteous', cursive;
+  font-size: 110px;
+  /* text-align: left; */
+  line-height: 90px;
+
+}
 h2 {
   margin: 0;
   padding: 0;

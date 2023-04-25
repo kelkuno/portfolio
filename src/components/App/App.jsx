@@ -16,37 +16,37 @@ import { HashRouter as Router, Route, Link, useHistory } from "react-router-dom"
 
 function App() {
   return (
- 
-      <Router>
-        <div className="App">
-          <Route
-            path="/"
-            exact>
-            <Home />
-          </Route>
-          <Route
-            path="/resume">
-            <Resume />
-          </Route>
-          <Route
-            path="/projects">
-            <Projects />
-          </Route>
-          <Route
-            path="/about">
-            <About />
-          </Route>
-          <Route
-            path="/photo-palette">
-            <PhotoPalette />
-          </Route>
-          <Route
-            path="/employee-tracker">
-            <EmployeeTracker />
-          </Route>
-          {/* <Nav /> */}
-        </div>
-      </Router>
+
+    <Router>
+      <div className="App">
+        <Nav />
+        <Route
+          path="/"
+          exact>
+          <Home />
+        </Route>
+        <Route
+          path="/resume">
+          <Resume />
+        </Route>
+        <Route
+          path="/projects">
+          <Projects />
+        </Route>
+        <Route
+          path="/about">
+          <About />
+        </Route>
+        <Route
+          path="/photo-palette">
+          <PhotoPalette />
+        </Route>
+        <Route
+          path="/employee-tracker">
+          <EmployeeTracker />
+        </Route>
+      </div>
+    </Router>
 
 
   );
