@@ -15,10 +15,10 @@ function Nav() {
                 </div>
 
                 <div className="contact-container">
-                <div className="contact">
+                    <div className="contact">
                         <span className="number">01</span>
                         <a href="https://kelkuno.github.io/portfolio/#/"
-                            >
+                        >
                             Home
                         </a>
                     </div>

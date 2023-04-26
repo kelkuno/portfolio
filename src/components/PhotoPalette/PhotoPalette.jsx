@@ -6,9 +6,9 @@ function PhotoPalette() {
         <>
             <h2>Photo Palette</h2>
             <div className="three-img">
-                <iframe src="https://giphy.com/embed/wvER9hFlm3jZrePE0r" width="480" height="404" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-                <iframe src="https://giphy.com/embed/pLUVhxbX9LZsYZ9pZv" width="480" height="404" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
-                <iframe src="https://giphy.com/embed/4kRHo2lJoBJVnacGFT" width="480" height="404" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/wvER9hFlm3jZrePE0r" width="480" height="404" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/pLUVhxbX9LZsYZ9pZv" width="480" height="404" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
+                <iframe src="https://giphy.com/embed/4kRHo2lJoBJVnacGFT" width="480" height="404" frameBorder="0" className="giphy-embed" allowFullScreen></iframe>
             </div>
             <h3>Full CRUD Application Overview:</h3>
             <p><b>Project Duration:</b> 2 weeks!</p>

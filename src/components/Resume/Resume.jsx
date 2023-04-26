@@ -1,19 +1,7 @@
 import React from 'react';
 
-import { useHistory } from 'react-router-dom';
-
-
-
-
 function Resume() {
 
-    const history = useHistory();
-
-    const routeHome = () => {
-        alert("You are headed to animals");
-        ///CHANGE LOCATION???
-        history.push('/about');
-    };
     return (
         <div className="resume-container">
             <div className="content-blocks">

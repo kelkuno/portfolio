@@ -7,14 +7,10 @@ function Projects() {
     const history = useHistory();
 
     const handleBtn = () => {
-        console.log("sup button");
         history.push('/photo-palette');
-
     }
     const handleBtn2 = () => {
-        console.log("sup button");
         history.push('/employee-tracker');
-
     }
 
     return (
@@ -29,7 +25,7 @@ function Projects() {
                 </button>
             </div>
             <div className="container">
-                <img src='./photo-palette-cover.png' alt="photo-palette" />
+                <img src='./ilcs-project.jpg' alt="employee-time-tracker-cover-photo" />
                 <button
                     onClick={handleBtn2}
                 >
