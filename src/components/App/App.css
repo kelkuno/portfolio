@@ -70,6 +70,7 @@ body {
   width: 100%;
   color: white;
   display: flex;
+  flex-wrap:warp;
   justify-content: space-between;
 }
 .logo {
@@ -85,6 +86,7 @@ body {
 .contact-container {
   justify-content: space-between;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
 }
 .contact-container a {
@@ -216,7 +218,7 @@ img {
   justify-content: center;
 }
 .three-img iframe {
-  margin: 2vh 2vh;
+  margin: 0 2vh;
 }
 .technologies {
   display: flex;
