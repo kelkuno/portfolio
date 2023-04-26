@@ -32,14 +32,14 @@ body {
 .main-nav .content {
   display: block;
   font-family: 'Signika', sans-serif;
-  font-size: 10vw;
+  font-size: 10vh;
   color: black;
 }
 
 /* About component styles */
 .profile-pic {
-  max-width: 350px;
-  max-height: 350px;
+  max-width: 200px;
+  max-height: 200px;
   flex-grow: 1;
   flex-shrink: 1;
   border-radius: 50%;
@@ -49,8 +49,7 @@ body {
 .about-content {
   font-family: 'Signika', sans-serif;
   font-weight: normal;
-  font-size: 24px;
-  color: navy;
+  font-size: 2.2vh;
   line-height: 1.5;
   flex-basis: 1000px;
   flex-shrink: 3;
@@ -77,11 +76,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  margin: 1vw 0 3vw 0;
+  margin: 1vh 0 3vh 0;
 }
 .nav-text {
   font-family: 'Signika', sans-serif;
-  font-size: 2vw;
+  font-size: 2.7vh;
 }
 .contact-container {
   justify-content: space-between;
@@ -89,19 +88,19 @@ body {
   align-items: center;
 }
 .contact-container a {
-  font-size: 1.7vw;
+  font-size: 2.2vh;
 }
 .number {
   margin: 0 .5vw 0 2vw;
   font-weight: 700;
-  font-size: 1.5vw;
+  font-size: 1.9vh;
   font-family: 'Signika', sans-serif;
 }
 
 /* Resume component styles */
 .resume-container {
   font-family: 'Signika', sans-serif;
-  font-size: 2vw;
+  font-size: 2.5vh;
   height: 100%;
 }
 .block {
@@ -117,7 +116,7 @@ body {
 }
 .employment-info {
   margin-bottom: 10px;
-  font-size: 2.3vw;
+  font-size: 2.8vh;
 }
 
 
@@ -126,15 +125,15 @@ h1{
   margin: 0;
   padding: 0;
   font-family: 'Righteous', cursive;
-  font-size: 5vw;
-  line-height: 4vw;
+  font-size: 5.3vh;
+  line-height: 4.3vh;
 }
 h2 {
   margin: 0;
   padding: 0;
   font-family: 'Righteous', cursive;
-  font-size: 4.5vw;
-  letter-spacing: .06em;
+  font-size: 4.2vh;
+  letter-spacing: .1em;
   text-transform: uppercase;
   color: #6495ED;
   -webkit-text-stroke-width: 1px;
@@ -145,7 +144,7 @@ button {
   padding: 0;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 2.2vw;
+  font-size: 2.5vh;
   font-family: 'Signika', sans-serif;
   background-color: #6495ED;
   padding: 10px 20px;
@@ -157,35 +156,34 @@ button:hover {
   background-color: #0ff;
 }
 h3 {
-  margin: 2vw 0;
+  margin: 1.5vh 0;
   padding: 0;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 2.5vw;
+  font-size: 3vh;
 }
 h4 {
   margin: 0 6vw 2vw 0;
   padding: 0;
   font-weight: bold;
-  font-size: 2.5vw;
+  font-size: 3vh;
 }
 .underline {
   text-decoration: underline;
 }
 p{
-  margin: 2vw 0;
+  margin: 2.5vh 0;
   font-family: 'Signika', sans-serif;
-  font-size: 2vw;
+  font-size: 2.5vh;
 }
 li {
   font-family: 'Signika', sans-serif;
-  font-size: 3vh;
-  color: green;
+  font-size: 2.5vh;
 }
 a {
   color: #0ff;
   font-family: 'Signika', sans-serif;
-  font-size: 2vw;
+  font-size: 2.5vh;
 }
 /* projects */
 .projects {
@@ -194,7 +192,6 @@ a {
   justify-content: center;
 }
 .projects .container {
-  border: solid 3px black;  
   max-width: 600px;
   display: flex;
   flex-wrap: wrap;
@@ -203,7 +200,7 @@ a {
   box-shadow: 5px 5px 40px 5px #0ff;
   padding: 20px;
   border-radius: 5%;
-  margin: 50px;
+  margin: 2vh;
 }
 img {
   width: 100%;
@@ -219,7 +216,7 @@ img {
   justify-content: center;
 }
 .three-img iframe {
-  margin: 2vw 2vw;
+  margin: 2vh 2vh;
 }
 .technologies {
   display: flex;
