@@ -23,21 +23,21 @@ function Nav() {
                         </a>
                     </div>
                     <div className="contact">
-                        <span className="number">01</span>
+                        <span className="number">02</span>
                         <a href="https://www.linkedin.com/in/kelsey-kuno/"
                             target="blank">
                             LinkedIn
                         </a>
                     </div>
                     <div className="contact">
-                        <span className="number">02</span>
+                        <span className="number">03</span>
                         <a href="https://github.com/kelkuno"
                             target="blank">
                             GitHub
                         </a>
                     </div>
                     <div className="contact">
-                        <span className="number">03</span>
+                        <span className="number">04</span>
                         <a href="https://www.kelseykuno.com/"
                             target="blank">
                             Creative Portfolio
