@@ -16,7 +16,7 @@ function Projects() {
     return (
         <div className="projects">
             <div className="container">
-                <img src='./photo-palette-cover.png' alt="photo-palette" />
+                <img src='./photo-palette-cover.webp' alt="photo-palette" />
                 <button
                     onClick={handleBtn}
                     className="btn"
@@ -25,7 +25,7 @@ function Projects() {
                 </button>
             </div>
             <div className="container">
-                <img src='./ilcs-project.jpg' alt="employee-time-tracker-cover-photo" />
+                <img src='./ilcs-project.webp' alt="employee-time-tracker-cover-photo" />
                 <button
                     onClick={handleBtn2}
                 >

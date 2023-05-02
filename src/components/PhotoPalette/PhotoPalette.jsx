@@ -16,10 +16,10 @@ function PhotoPalette() {
             <p>My app will generate color palettes from photos that users upload. The idea is a user will upload a photo and the app will generate colors in the photo so that the user can store, edit and access the palette later on. </p>
             <p>Being that I am an artist myself, I spent a lot of time thinking about the application flow. Here's a rough wireframe of how I imagined the flow:</p>
             <div className="single-img">
-                <img src='./photo-app-flow.png' alt="photo-app-flow-chart" />
+                <img src='./photo-app-flow.webp' alt="photo-app-flow-chart" />
             </div>
             <div className="single-img">
-                <img src='./photo-app-db.png' alt="photo-app-database-design" />
+                <img src='./photo-app-db_1.webp' alt="photo-app-database-design" />
             </div>
             <h3>Built with:</h3>
             <div className="technologies">
