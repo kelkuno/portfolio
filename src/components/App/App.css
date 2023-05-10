@@ -161,6 +161,10 @@ button {
 }
 button:hover {
   background-color: #0ff;
+  color: black;
+}
+button:hover a{
+  color: black;
 }
 h3 {
   margin: 1.5vh 0;
@@ -191,9 +195,6 @@ a {
   color: #0ff;
   font-family: 'Signika', sans-serif;
   font-size: 2.5vh;
-}
-a:hover {
-  color: black;
 }
 /* projects */
 .projects {
