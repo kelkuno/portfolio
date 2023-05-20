@@ -1,10 +1,31 @@
+@layer base {
+  :root {
+    --base-size: 1rem;
+    --scale: 1.25;
+    --h1: calc(var(--h2) * var(--scale));
+    --h2: calc(var(--h3) * var(--scale));
+    --h3: calc(var(--h4) * var(--scale));
+    --h4: calc(var(--h5) * var(--scale));
+    --h5: calc(var(--h6) * var(--scale));
+    --h6: var(--base-size);
+
+    /* colors */
+    /* colors */
+    --blue: #6495ED;
+    --cyan: #0ff;
+    --white: #ffffff;
+    --black: #050d14;
+
+  }
+}
+
 .App {
   height: 95vh;
   width: 95vw;
   overflow: auto;
 }
 body {
-  background-color: #6495ED;
+  background-color: var(--blue);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -20,7 +41,7 @@ body {
 }
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0ff;
+  background: var(--cyan);
   border-radius: 10px;
 }
 
@@ -36,7 +57,7 @@ body {
   display: block;
   font-family: 'Signika', sans-serif;
   font-size: 10vh;
-  color: white;
+  color: var(--white);
 }
 
 /* About component styles */
@@ -46,8 +67,8 @@ body {
   flex-grow: 1;
   flex-shrink: 1;
   border-radius: 50%;
-  border: solid 2px #6495ED;
-  box-shadow: 5px 5px 40px 5px #0ff;
+  border: solid 2px var(--blue);
+  box-shadow: 5px 5px 40px 5px var(--cyan);
 }
 .about-content {
   font-family: 'Signika', sans-serif;
@@ -142,7 +163,7 @@ h2 {
   font-size: 4.2vh;
   letter-spacing: .1em;
   text-transform: uppercase;
-  color: #6495ED;
+  color: var(--blue);
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
@@ -153,18 +174,18 @@ button {
   text-transform: uppercase;
   font-size: 2.5vh;
   font-family: 'Signika', sans-serif;
-  background-color: #6495ED;
+  background-color: var(--blue);
   padding: 10px 20px;
   margin: 20px;
   border-radius: 25px;
-  border: solid 2px black;
+  border: solid 2px var(--black);
 }
 button:hover {
-  background-color: #0ff;
-  color: black;
+  background-color: var(--cyan);
+  color: var(--black);
 }
 button:hover a{
-  color: black;
+  color: var(--black);
 }
 h3 {
   margin: 1.5vh 0;
@@ -192,7 +213,7 @@ li {
   font-size: 2.5vh;
 }
 a {
-  color: #0ff;
+  color: var(--cyan);
   font-family: 'Signika', sans-serif;
   font-size: 2.5vh;
 }
@@ -207,8 +228,8 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: solid 2px #6495ED;
-  box-shadow: 5px 5px 40px 5px #0ff;
+  border: solid 2px var(--blue);
+  box-shadow: 5px 5px 40px 5px var(--cyan);
   padding: 20px;
   border-radius: 5%;
   margin: 2vh;
