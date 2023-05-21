@@ -1,48 +1,49 @@
 @layer base {
   :root {
+    --base-font: 'Poppins', sans-serif;
     --base-size: 1rem;
-    --scale: 1.25;
+    --scale: 1.333;
     --h1: calc(var(--h2) * var(--scale));
     --h2: calc(var(--h3) * var(--scale));
     --h3: calc(var(--h4) * var(--scale));
     --h4: calc(var(--h5) * var(--scale));
     --h5: calc(var(--h6) * var(--scale));
     --h6: var(--base-size);
+    --h7: calc(var(--base-size) / var(--scale));
 
-    /* colors */
     /* colors */
     --blue: #6495ED;
     --cyan: #0ff;
     --white: #ffffff;
     --black: #050d14;
-
   }
-}
-
-.App {
-  height: 95vh;
-  width: 95vw;
-  overflow: auto;
-}
-body {
-  background-color: var(--blue);
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-}
-/* width */
-::-webkit-scrollbar {
-  width: 20px;
-}
-/* Track */
-::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
-}
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: var(--cyan);
-  border-radius: 10px;
+  .App {
+    height: 95vh;
+    width: 95vw;
+    overflow: auto;
+  }
+  body {
+    background-color: var(--blue);
+    display: flex;
+    justify-content: center;
+    font-family: var(--base-font);
+    font-size: var(--base-size);
+    margin: 0 1rem;
+  }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: var(--cyan);
+    border-radius: 10px;
+  }
 }
 
 /*Home Page */
@@ -55,8 +56,7 @@ body {
 }
 .main-nav .content {
   display: block;
-  font-family: 'Signika', sans-serif;
-  font-size: 10vh;
+  font-size: var(--h1);
   color: var(--white);
 }
 
@@ -71,12 +71,11 @@ body {
   box-shadow: 5px 5px 40px 5px var(--cyan);
 }
 .about-content {
-  font-family: 'Signika', sans-serif;
   font-weight: normal;
-  font-size: 2.2vh;
   line-height: 1.5;
   flex-basis: 1000px;
   flex-shrink: 3;
+  font-size: var(--h6);
 }
 .about-container {
   display: flex;
@@ -101,11 +100,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  margin: 1vh 0 3vh 0;
+  margin: 1rem 0 3rem 0;
 }
 .nav-text {
-  font-family: 'Signika', sans-serif;
-  font-size: 2.7vh;
+  font-weight: 600;
   margin: .7vh 0;
 }
 .contact-container {
@@ -116,23 +114,20 @@ body {
   align-content: center;
 }
 .contact-container a {
-  font-size: 2.2vh;
+  font-size: var(--h7);
 }
 .number {
-  margin: 0 .5vw 0 2vw;
-  font-weight: 700;
-  font-size: 1.9vh;
-  font-family: 'Signika', sans-serif;
+  margin: 0 .4rem 0 2rem;
+  font-weight: 800;
+  font-size: var(--h7);
 }
 
 /* Resume component styles */
 .resume-container {
-  font-family: 'Signika', sans-serif;
-  font-size: 2.5vh;
   height: 100%;
 }
 .block {
-  margin: 2vw 0;
+  margin: 1rem 0;
 }
 .skills .block {
   display: flex;
@@ -143,8 +138,7 @@ body {
   margin: 0;
 }
 .employment-info {
-  margin-bottom: 10px;
-  font-size: 2.8vh;
+  margin-bottom: .5rem;
 }
 
 
@@ -153,15 +147,15 @@ h1{
   margin: 0;
   padding: 0;
   font-family: 'Righteous', cursive;
-  font-size: 5.3vh;
-  line-height: 4.3vh;
+  font-size: var(--h3);
+  line-height: .85;
 }
 h2 {
   margin: 0;
   padding: 0;
   font-family: 'Righteous', cursive;
-  font-size: 4.2vh;
-  letter-spacing: .1em;
+  font-size: var(--h4);
+  letter-spacing: .2rem;
   text-transform: uppercase;
   color: var(--blue);
   -webkit-text-stroke-width: 1px;
@@ -172,8 +166,7 @@ button {
   padding: 0;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 2.5vh;
-  font-family: 'Signika', sans-serif;
+  font-size: var(--h6);
   background-color: var(--blue);
   padding: 10px 20px;
   margin: 20px;
@@ -188,34 +181,27 @@ button:hover a{
   color: var(--black);
 }
 h3 {
-  margin: 1.5vh 0;
+  margin: 1rem 0;
   padding: 0;
   font-weight: bold;
   text-transform: uppercase;
-  font-size: 3vh;
 }
 h4 {
-  margin: 0 6vw 2vw 0;
+  margin: 0 1.5rem 1.5rem 0;
   padding: 0;
   font-weight: bold;
-  font-size: 3vh;
+  font-size: var(--h5);
+  border: solid 2px green;
 }
 .underline {
   text-decoration: underline;
 }
 p{
-  margin: 2.5vh 0;
-  font-family: 'Signika', sans-serif;
-  font-size: 2.5vh;
-}
-li {
-  font-family: 'Signika', sans-serif;
-  font-size: 2.5vh;
+  margin: 1rem 0;
 }
 a {
   color: var(--cyan);
-  font-family: 'Signika', sans-serif;
-  font-size: 2.5vh;
+  /* font-size: var(--base-font); */
 }
 /* projects */
 .projects {
@@ -231,8 +217,8 @@ a {
   border: solid 2px var(--blue);
   box-shadow: 5px 5px 40px 5px var(--cyan);
   padding: 20px;
-  border-radius: 5%;
-  margin: 2vh;
+  border-radius: 20px;
+  margin: 2rem;
 }
 img {
   width: 100%;
@@ -248,7 +234,7 @@ img {
   justify-content: center;
 }
 .three-img iframe {
-  margin: 2vh;
+  margin: 2rem;
 }
 .technologies {
   display: flex;
