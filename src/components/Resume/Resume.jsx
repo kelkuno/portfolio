@@ -139,7 +139,7 @@ function Resume() {
                     </ul>
                 </div>
                 <div className="block">
-                    <h4>Graphic Design</h4>
+                    <h4>Design</h4>
                     <ul>
                         <li>Adobe After Effects</li>
                         <li>Adobe Premiere</li>
