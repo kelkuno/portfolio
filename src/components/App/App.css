@@ -59,7 +59,9 @@
   display: block;
   font-size: var(--h1);
   color: var(--white);
+  text-decoration: none;
 }
+
 
 /* About component styles */
 .profile-pic {
