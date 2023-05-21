@@ -9,9 +9,9 @@ function Nav() {
                     <h1
                         onClick={() => console.log('hi')}
                     >
-                        Kelsey <br /> Kuno
+                        Kelsey <br /> Kuno <br /> 
                     </h1>
-                    <div className="nav-text">software engineer & designer</div>
+                    <div className="nav-text"> software engineer && designer</div>
                 </div>
 
                 <div className="contact-container">

@@ -17,6 +17,7 @@
     --white: #ffffff;
     --black: #050d14;
     --cyan-light: rgba(0, 255, 255, 0.461);
+    --red: #b20000;
   }
   .App {
     height: 95vh;
@@ -98,22 +99,26 @@
   display: flex;
   flex-wrap:warp;
   justify-content: space-between;
+  align-content: flex-end;
+  padding: 1rem 0 1rem 0;
+
 }
 .logo {
   display: flex;
   flex-direction: column;
   align-items: flex-start; 
-  margin: 1rem 0 1rem 0;
 }
 .nav-text {
   font-weight: 600;
   margin: .3rem 0;
+  color: var(--red);
+  font-size: var(--h4);
 }
 .contact-container {
   justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  align-items: flex-start;
   align-content: center;
 }
 .contact-container a {
