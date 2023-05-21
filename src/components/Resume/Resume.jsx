@@ -119,37 +119,38 @@ function Resume() {
                     <div className="">Bachelor of Arts in English Literature; Studio Art </div>
                     <div className="">Graduated December 2012</div>
                 </div>
-
-
-
-
-
             </div>
             <div className="content-blocks skills">
                 <h2>Skills</h2>
                 <div className="block">
-                    <h4>JavaScript</h4>
-                    <h4>HTML</h4>
-                    <h4>CSS</h4>
-                    <h4>jQuery</h4>
-                    <h4>React</h4>
-                    <h4>JavaScript</h4>
-                    <h4>Redux</h4>
-                    <h4>SQL</h4>
-                    <h4>Express</h4>
-                    <h4>NodeJS</h4>
-                    <h4>Git</h4>
+                    <h4>Development</h4>
+                    <ul >
+                        <li>JavaScript</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>jQuery</li>
+                        <li>React</li>
+                        <li>JavaScript</li>
+                        <li>Redux</li>
+                        <li>SQL</li>
+                        <li>Express</li>
+                        <li>NodeJS</li>
+                        <li>Git</li>
+                    </ul>
                 </div>
                 <div className="block">
-                    <h4>Adobe After Effects</h4>
-                    <h4>Adobe Premiere</h4>
-                    <h4>Adobe InDesign</h4>
-                    <h4>Adobe Illustrator</h4>
-                    <h4>Adobe Photoshop</h4>
-                    <h4>Adobe XD</h4>
-                    <h4>Typography</h4>
-                    <h4>Design Layout</h4>
-                    <h4>Motion Design</h4>
+                    <h4>Graphic Design</h4>
+                    <ul>
+                        <li>Adobe After Effects</li>
+                        <li>Adobe Premiere</li>
+                        <li>Adobe InDesign</li>
+                        <li>Adobe Illustrator</li>
+                        <li>Adobe Photoshop</li>
+                        <li>Adobe XD</li>
+                        <li>Typography</li>
+                        <li>Design Layout</li>
+                        <li>Motion Design</li>
+                    </ul>
                 </div>
             </div>
         </div>
